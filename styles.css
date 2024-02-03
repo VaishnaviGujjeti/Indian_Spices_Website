@@ -1,0 +1,204 @@
+body, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+    background-image: url("IndianR.png");
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-attachment: fixed; 
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700; 
+}
+
+/* Main styles */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Home section styles */
+#home {
+    text-align: center;
+}
+
+#home img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.home h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffd700; 
+}
+
+.home p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ccc; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffcc00; 
+}
+
+/* Dishes styles */
+
+.dish img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu section styles */
+#menu {
+    text-align: center;
+}
+
+.menu-item {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.menu-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.item-details {
+    margin-top: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+/* About section styles */
+#about {
+    text-align: center;
+}
+
+.about {
+    margin: 20px;
+}
+
+/* Contact section styles */
+#contact {
+    text-align: center;
+}
+
+#contactform{
+    max-width: 350px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #555;
+}
